@@ -9,5 +9,10 @@ function calc(num1: number, num2: number): number {
 function customError(): never {
 throw new Error('Error');
 }
+try {
+  customError();                 
+} catch (e) {
+  console.error(e);           
+}
 showMessage('Hello');
 console.log(calc(3, 7));
