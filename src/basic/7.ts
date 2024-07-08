@@ -30,3 +30,5 @@ const page2: Book = {
  status: 'close',
 }
 
+console.log(page1);
+console.log(page2);
