@@ -12,7 +12,7 @@ throw new Error('Error');
 try {
   customError();                 
 } catch (e) {
-  console.error(e);           
+  console.log(e);           
 }
 showMessage('Hello');
 console.log(calc(3, 7));
